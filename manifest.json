@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "id": "photowall-playlist",
+  "name": "歌单照片墙",
+  "version": "0.1.0",
+  "author": "Laohehehe",
+  "description": "把歌单 / 歌曲列表变成一面可拖拽、可缩放的 3D 照片墙：悬浮看封面、滚轮缩放、拖拽平移，点开即播放。",
+  "homepage": "https://github.com/Laohehehe/netHEmusic",
+  "permissions": ["ui", "events", "settings", "filesystem"],
+  "injects": {
+    "Main": [
+      { "file": "./vendor/photowall.bundle.js" },
+      { "file": "./ui.js" },
+      { "file": "./main.js" }
+    ]
+  }
+}

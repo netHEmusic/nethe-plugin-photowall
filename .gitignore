@@ -1,0 +1,10 @@
+# 开发与验证用的东西留在本机，不随插件仓库发布
+dev/
+tools/
+dist/
+*.zip
+
+# 系统杂物
+desktop.ini
+Thumbs.db
+.DS_Store
